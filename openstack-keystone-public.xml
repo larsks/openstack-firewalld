@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<service>
+  <short>openstack-keystone-public</short>
+  <description>keystone identity service (public)</description>
+  <port protocol="tcp" port="5000"/>
+</service>

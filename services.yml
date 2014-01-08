@@ -8,11 +8,14 @@ services:
         port: 8774
       - protocol: tcp
         port: 8775
-  - service_name: openstack-keystone
-    service_description: keystone identity service
+  - service_name: openstack-keystone-public
+    service_description: keystone identity service (public)
     service_ports:
       - protocol: tcp
         port: 5000
+  - service_name: openstack-keystone-admin
+    service_description: keystone identity service (admin)
+    service_ports:
       - protocol: tcp
         port: 35357
   - service_name: openstack-glance-api

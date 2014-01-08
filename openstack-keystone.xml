@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<service>
-  <short>openstack-keystone</short>
-  <description>keystone identity service</description>
-  <port protocol="tcp" port="5000"/>
-  <port protocol="tcp" port="35357"/>
-</service>

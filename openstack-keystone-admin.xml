@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<service>
+  <short>openstack-keystone-admin</short>
+  <description>keystone identity service (admin)</description>
+  <port protocol="tcp" port="35357"/>
+</service>
