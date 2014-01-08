@@ -1,0 +1,18 @@
+#!/bin/sh
+#
+# Use "filler" from https://github.com/larsks/template-filler to transform this
+# into an actual script:
+#
+# filler -p services.yml gen-service-xml | sh
+
+{% for service in services %}
+cat > {{service.service_name}}.xml <<EOF
+<?xml version="1.0" encoding="utf-8"?>
+<service>
+  <short>{{service.service_name}}</short>
+  <description>{{service.service_description}}</description>
+{% for port in service.service_ports %}  <port protocol="{{port.protocol}}" port="{{port.port}}"/>
+{% endfor -%}
+</service>
+EOF
+{% endfor %}

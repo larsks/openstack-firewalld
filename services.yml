@@ -1,0 +1,68 @@
+services:
+  - service_name: openstack-nova-api
+    service_description: nova api
+    service_ports:
+      - protocol: tcp
+        port: 8773
+      - protocol: tcp
+        port: 8774
+      - protocol: tcp
+        port: 8775
+  - service_name: openstack-keystone
+    service_description: keystone identity service
+    service_ports:
+      - protocol: tcp
+        port: 5000
+      - protocol: tcp
+        port: 35357
+  - service_name: openstack-glance-api
+    service_description: glance (openstack image service) api
+    service_ports:
+      - protocol: tcp
+        port: 9292
+  - service_name: openstack-glance-registry
+    service_description: glance (openstack image service) registry
+    service_ports:
+      - protocol: tcp
+        port: 9191
+  - service_name: qpid
+    service_description: qpid messaging service
+    service_ports:
+      - protocol: tcp
+        port: 5672
+  - service_name: openstack-cinder
+    service_description: cinder (openstack volume service)
+    service_ports:
+      - protocol: tcp
+        port: 8776
+  - service_name: openstack-heat-api
+    service_description: heat (openstack orchestration service)
+    service_ports:
+      - protocol: tcp
+        port: 8004
+  - service_name: openstack-heat-cfn-api
+    service_description: heat cloudformation (openstack orchestration service)
+    service_ports:
+      - protocol: tcp
+        port: 8000
+  - service_name: openstack-novncproxy
+    service_description: novnc proxy
+    service_ports:
+      - protocol: tcp
+        port: 6080
+  - service_name: openstack-neutron-server
+    service_description: openstack networking service
+    service_ports:
+      - protocol: tcp
+        port: 9696
+  - service_name: vncdisplay
+    service_description: openstack networking service
+    service_ports:
+      - protocol: tcp
+        port: 5900-7000
+  - service_name: iscsi
+    service_description: iSCSI
+    service_ports:
+      - protocol: tcp
+        port: 3260
+

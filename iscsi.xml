@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <service>
-  <short>openstack-iscsi</short>
+  <short>iscsi</short>
   <description>iSCSI</description>
   <port protocol="tcp" port="3260"/>
 </service>
