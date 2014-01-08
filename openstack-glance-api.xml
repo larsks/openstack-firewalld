@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<service>
+  <short>openstack-glance-api</short>
+  <description>glance (openstack image service) api</description>
+  <port protocol="tcp" port="9292"/>
+</service>

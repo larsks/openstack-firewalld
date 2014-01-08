@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<service>
+  <short>openstack-nova-api</short>
+  <description>nova api</description>
+  <port protocol="tcp" port="8773"/>
+  <port protocol="tcp" port="8774"/>
+  <port protocol="tcp" port="8775"/>
+</service>

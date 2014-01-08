@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<service>
+  <short>openstack-qpid</short>
+  <description>qpid messaging service</description>
+  <port protocol="tcp" port="5672"/>
+</service>

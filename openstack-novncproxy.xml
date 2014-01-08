@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<service>
+  <short>openstack-novncproxy</short>
+  <description>novnc proxy</description>
+  <port protocol="tcp" port="6080"/>
+</service>

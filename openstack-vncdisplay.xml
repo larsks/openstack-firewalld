@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<service>
+  <short>openstack-vncdisplay</short>
+  <description>openstack networking service</description>
+  <port protocol="tcp" port="5900-7000"/>
+</service>

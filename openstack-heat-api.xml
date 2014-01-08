@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<service>
+  <short>openstack-heat-api</short>
+  <description>heat (openstack orchestration service)</description>
+  <port protocol="tcp" port="8004"/>
+</service>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<service>
+  <short>openstack-heat-cfn-api</short>
+  <description>heat cloudformation (openstack orchestration service)</description>
+  <port protocol="tcp" port="8000"/>
+</service>
